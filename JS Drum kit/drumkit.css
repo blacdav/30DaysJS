@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+    width: 80%;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.key {
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid yellow;
+    text-align: center;
+    position: relative;
+    align-content: center;
+    transition: 1.1s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #000fff;
+}
